@@ -15,7 +15,7 @@ const UsernameSearch = ({
   setRepositories,
   setCommitData,
 }: UserSearchProps) => {
-  const [inputUsername, setInputUsername] = useState("");
+  const [inputUsername, setInputUsername] = useState("ritesh-doijad");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
